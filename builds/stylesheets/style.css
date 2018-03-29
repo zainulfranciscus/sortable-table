@@ -1,0 +1,50 @@
+.row {
+  border-left: thin solid #d7d7d7; }
+  @media only screen and (min-width: 640px) and (max-width: 657px) {
+    .row {
+      font-size: 15px; } }
+
+.header {
+  font-weight: bold;
+  background-color: #cacaca;
+  color: #717171;
+  border-top: medium solid #000099;
+  cursor: pointer;
+  cursor: hand;
+  border-left: thin solid #d7d7d7; }
+
+.ratingBox {
+  padding-left: 7px;
+  width: 23px;
+  background-color: #7b7b7b;
+  color: white;
+  margin: 0 auto; }
+  @media only screen and (max-width: 40em) {
+    .ratingBox {
+      margin: 0;
+      background-color: transparent;
+      color: black;
+      width: initial;
+      padding-left: 0; } }
+
+.player-row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: thin solid #d7d7d7;
+  border-right: thin solid #d7d7d7; }
+
+.gradient {
+  background-color: #e6e6e6;
+  background-image: url(data:image/svg+xmlbase64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj48c3RvcCBzdG9wLWNvbG9yPSIjZTJlMmUyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNkYmRiZGIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUiLz48c3RvcCBzdG9wLWNvbG9yPSIjZmVmZWZlIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+  background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, color-stop(0, #e2e2e2), color-stop(0.5, #dbdbdb), color-stop(1, #fefefe));
+  background-image: -webkit-repeating-linear-gradient(bottom, #e2e2e2 0%, #dbdbdb 50%, #fefefe 100%);
+  background-image: repeating-linear-gradient(to top, #e2e2e2 0%, #dbdbdb 50%, #fefefe 100%);
+  background-image: -ms-repeating-linear-gradient(bottom, #e2e2e2 0%, #dbdbdb 50%, #fefefe 100%); }
+
+.club-logo {
+  max-width: 6%; }
+
+.light-blue-font {
+  color: #9999ff; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZXNoZWV0cy9zdHlsZS5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/

@@ -1,0 +1,40 @@
+export const ratings = {
+    "playerRatings": [
+        {
+            "position": "MIDFIELDER",
+            "player": {
+                "playerName": {
+                    "givenName": "Patrick",
+                    "surname": "Dangerfield"
+                }
+            },
+            "team": {
+                "teamName": "Geelong Cats"
+            },
+            "detailedRatings": [
+                {
+                    "ranking": 1,
+                    "ratingType": "OVERALL"
+                }
+            ]
+        },        
+        {
+            "position": "FORWARD",
+            "player": {
+                "playerName": {
+                    "givenName": "Marcus",
+                    "surname": "Bontempelli"
+                }
+            },
+            "team": {
+                "teamName": "Western Bulldogs"
+            },
+            "detailedRatings": [
+                {
+                    "ranking": 5,
+                    "ratingType": "OVERALL"
+                }
+            ]
+        }
+    ]
+};
